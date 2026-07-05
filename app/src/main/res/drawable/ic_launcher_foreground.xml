@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Base/Shadow for 3D effect of the letter B -->
+    <path
+        android:pathData="M 37,26 H 58 C 69,26 75,31 75,40 C 75,47 70,51 62,53 C 71,55 77,60 77,70 C 77,80 69,86 56,86 H 37 Z"
+        android:fillColor="#40000000" />
+
+    <!-- Main Letter B Body with Purple/Indigo Premium Gradient -->
+    <path
+        android:pathData="M 35,24 H 56 C 67,24 73,29 73,38 C 73,45 68,49 60,51 C 69,53 75,58 75,68 C 75,78 67,84 54,84 H 35 Z M 48,35 V 46 H 55 C 59,46 61,44 61,40 C 61,37 59,35 55,35 Z M 48,58 V 72 H 56 C 60,72 63,70 63,65 C 63,61 60,58 56,58 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="24"
+                android:endX="75"
+                android:endY="84"
+                android:type="linear">
+                <item
+                    android:color="#EADDFF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#D0BCFF"
+                    android:offset="0.3" />
+                <item
+                    android:color="#6750A4"
+                    android:offset="0.8" />
+                <item
+                    android:color="#4F378B"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Circuit Board Accent Tracks (Neon Cyan Glow) -->
+    <path
+        android:pathData="M 40,28 L 40,80"
+        android:strokeWidth="2.5"
+        android:strokeColor="#34F0FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M 46,30 H 54 C 58,30 63,33 63,38 C 63,43 58,45 54,45"
+        android:strokeWidth="1.8"
+        android:strokeColor="#34F0FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M 46,62 H 56 C 61,62 65,65 65,70 C 65,75 61,78 56,78"
+        android:strokeWidth="1.8"
+        android:strokeColor="#34F0FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Circuit Nodes (glowing dots at connections) -->
+    <group>
+        <clip-path android:pathData="M 35,24 H 56 C 67,24 73,29 73,38 C 73,45 68,49 60,51 C 69,53 75,58 75,68 C 75,78 67,84 54,84 H 35 Z" />
+        <path
+            android:pathData="M 40,28 A 2.5,2.5 0 1,1 40,23 A 2.5,2.5 0 1,1 40,28 Z"
+            android:fillColor="#FFFFFF" />
+        <path
+            android:pathData="M 40,80 A 2.5,2.5 0 1,1 40,75 A 2.5,2.5 0 1,1 40,80 Z"
+            android:fillColor="#FFFFFF" />
+        <path
+            android:pathData="M 54,45 A 2,2 0 1,1 54,41 A 2,2 0 1,1 54,45 Z"
+            android:fillColor="#34F0FF" />
+        <path
+            android:pathData="M 56,78 A 2,2 0 1,1 56,74 A 2,2 0 1,1 56,78 Z"
+            android:fillColor="#34F0FF" />
+    </group>
+
+    <!-- Beautiful AI / Magic Sparkles -->
+    <!-- Sparkle 1 (Neon Blue-Cyan Top Right) -->
+    <path
+        android:pathData="M 78,14 L 80,20 L 86,22 L 80,24 L 78,30 L 76,24 L 70,22 L 76,20 Z"
+        android:fillColor="#A8EFF3" />
+
+    <!-- Sparkle 2 (Warm Gold/Rose Left) -->
+    <path
+        android:pathData="M 22,36 L 23,40 L 27,41 L 23,42 L 22,46 L 21,42 L 17,41 L 21,40 Z"
+        android:fillColor="#FFD8E4" />
+
+    <!-- Sparkle 3 (Neon Light Purple Bottom Right) -->
+    <path
+        android:pathData="M 78,70 L 79,74 L 83,75 L 79,76 L 78,80 L 77,76 L 73,75 L 77,74 Z"
+        android:fillColor="#EADDFF" />
+
+</vector>
